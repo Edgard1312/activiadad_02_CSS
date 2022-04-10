@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 200%;
+      text-align: left;
+      margin: 20px;
+  }
+
+  div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+    span {
+        color: #ff0;
+        background: #f00;
+        width:24.2%;
+        aspect-ratio: 1;
+        font-size: 4vw;
+    }
+
+    #dos {
+        color: #fff;
+        background: #000;
+    }
